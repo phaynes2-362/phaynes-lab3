@@ -212,11 +212,13 @@ label {
  
  body {
    text-align: center;
+   background-color: #425563	;
+   
    
   }
   h1 {
    text-align: center;
-   
+   text-color: #768692;
   }
   h2,l1 {
   text-align: center;
