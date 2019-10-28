@@ -207,13 +207,13 @@ label {
 /* ===== MODULAR STYLES ===== */
 
 /* ===== STATE STYLES ======= */
-label {
+content {
   display: block;
   text-align: center;
   font-size: 1.5em;
 }
 
-input {
+body {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -222,25 +222,25 @@ input {
   box-sizing: border-box;
 }
 
-#fontsize {
+#input-email {
   font-size: 1.3em;
 }
 
 @media screen and (min-width: 480px) {
-  #form {
+  #content {
     text-align: center;
     margin: auto;
   }
 
-  label {
+  body {
     font-size: 1.2em;
   }
   
-  input {
+  input-email {
     width: 60%;
   }
   
-  #submit {
+  #input-submit {
     width: 35%;
     display: block;
     margin: auto;
@@ -249,12 +249,12 @@ input {
 }
 
 @media screen and (min-width: 768px) {
-  #form {
+  #content {
     width: 600px;
     float: right;
   }
   
-  #submit {
+  #input-submit {
     width: 26%;
   }
 }
